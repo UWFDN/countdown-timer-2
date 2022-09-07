@@ -1,0 +1,123 @@
+<html>
+
+	<head>
+
+		<style>
+		
+			BODY {background-color: lightblue; }
+			SPAN#clock {font-size: 0px; font-family: monospace; color: red; }
+			SPAN.colon {font-size: 100px; }
+			SPAN#sl0 {animation: 10s linear infinite ten; }
+			SPAN#sl1 {animation: 10s linear infinite ten 1s; }
+			SPAN#sl2 {animation: 10s linear infinite ten 2s; }
+			SPAN#sl3 {animation: 10s linear infinite ten 3s; }
+			SPAN#sl4 {animation: 10s linear infinite ten 4s; }
+			SPAN#sl5 {animation: 10s linear infinite ten 5s; }
+			SPAN#sl6 {animation: 10s linear infinite ten 6s; }
+			SPAN#sl7 {animation: 10s linear infinite ten 7s; }
+			SPAN#sl8 {animation: 10s linear infinite ten 8s; }
+			SPAN#sl9 {animation: 10s linear infinite ten 9s; }
+			SPAN#sh0 {animation: 60s linear infinite six; }
+			SPAN#sh1 {animation: 60s linear infinite six 10s; }
+			SPAN#sh2 {animation: 60s linear infinite six 20s; }
+			SPAN#sh3 {animation: 60s linear infinite six 30s; }
+			SPAN#sh4 {animation: 60s linear infinite six 40s; }
+			SPAN#sh5 {animation: 60s linear infinite six 50s; }
+			SPAN#ml0 {animation: 600s linear infinite ten; }
+			SPAN#ml1 {animation: 600s linear infinite ten 60s; }
+			SPAN#ml2 {animation: 600s linear infinite ten 120s; }
+			SPAN#ml3 {animation: 600s linear infinite ten 180s; }
+			SPAN#ml4 {animation: 600s linear infinite ten 240s; }
+			SPAN#ml5 {animation: 600s linear infinite ten 300s; }
+			SPAN#ml6 {animation: 600s linear infinite ten 360s; }
+			SPAN#ml7 {animation: 600s linear infinite ten 420s; }
+			SPAN#ml8 {animation: 600s linear infinite ten 480s; }
+			SPAN#ml9 {animation: 600s linear infinite ten 540s; }
+			SPAN#mh0 {animation: 3600s linear infinite six; }
+			SPAN#mh1 {animation: 3600s linear infinite six 600s; }
+			SPAN#mh2 {animation: 3600s linear infinite six 1200s; }
+			SPAN#mh3 {animation: 3600s linear infinite six 1800s; }
+			SPAN#mh4 {animation: 3600s linear infinite six 2400s; }
+			SPAN#mh5 {animation: 3600s linear infinite six 3000s; }
+			SPAN#h0 {animation: 43200s linear infinite twelve; }
+			SPAN#h1 {animation: 43200s linear infinite twelve 3600s; }
+			SPAN#h2 {animation: 43200s linear infinite twelve 7200s; }
+			SPAN#h3 {animation: 43200s linear infinite twelve 10800s; }
+			SPAN#h4 {animation: 43200s linear infinite twelve 14400s; }
+			SPAN#h4 {animation: 43200s linear infinite twelve 18000s; }
+			SPAN#h6 {animation: 43200s linear infinite twelve 21600s; }
+			SPAN#h7 {animation: 43200s linear infinite twelve 25200s; }
+			SPAN#h8 {animation: 43200s linear infinite twelve 28800s; }
+			SPAN#h9 {animation: 43200s linear infinite twelve 32400s; }
+			SPAN#h10 {animation: 43200s linear infinite twelve 36000s; }
+			SPAN#h11 {animation: 43200s linear infinite twelve 39600s; }
+			@keyframes ten {0%, 9.9999% {font-size: 100px; } 10%, 100% {font-size: 0px; }}
+			@keyframes six {0%, 16.6666% {font-size: 100px; } 16.6667%, 100% {font-size: 0px; }}
+			@keyframes twelve {0%, 8.33332% {font-size: 100px; } 8.33333%, 100% {font-size: 0px; }}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<span id="clock">
+
+			<span id="h0">12</span>
+			<span id="h1">&nbsp;1</span>
+			<span id="h2">&nbsp;2</span>
+			<span id="h3">&nbsp;3</span>
+			<span id="h4">&nbsp;4</span>
+			<span id="h5">&nbsp;5</span>
+			<span id="h6">&nbsp;6</span>
+			<span id="h7">&nbsp;7</span>
+			<span id="h8">&nbsp;8</span>
+			<span id="h9">&nbsp;9</span>
+			<span id="h10">10</span>
+			<span id="h11">11</span>
+
+			<span class="colon">:</span>
+
+			<span id="mh0">0</span>
+			<span id="mh1">1</span>
+			<span id="mh2">2</span>
+			<span id="mh3">3</span>
+			<span id="mh4">4</span>
+			<span id="mh5">5</span>
+
+			<span id="ml0">0</span>
+			<span id="ml1">1</span>
+			<span id="ml2">2</span>
+			<span id="ml3">3</span>
+			<span id="ml4">4</span>
+			<span id="ml5">5</span>
+			<span id="ml6">6</span>
+			<span id="ml7">7</span>
+			<span id="ml8">8</span>
+			<span id="ml9">9</span>
+
+			<span class="colon">:</span>
+
+			<span id="sh0">0</span>
+			<span id="sh1">1</span>
+			<span id="sh2">2</span>
+			<span id="sh3">3</span>
+			<span id="sh4">4</span>
+			<span id="sh5">5</span>
+
+			<span id="sl0">0</span>
+			<span id="sl1">1</span>
+			<span id="sl2">2</span>
+			<span id="sl3">3</span>
+			<span id="sl4">4</span>
+			<span id="sl5">5</span>
+			<span id="sl6">6</span>
+			<span id="sl7">7</span>
+			<span id="sl8">8</span>
+			<span id="sl9">9</span>
+
+		</span>
+
+	</body>
+
+</html>
